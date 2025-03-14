@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer Page</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="wrapper"> <!-- Main wrapper for centering content and styling -->
+        <h1 class="heading">Nggak sabar ketemu kamu 🥰</h1>
+        <p class="date">27 Maret 2025 — Buka bareng spesial di bulan Ramadhan! 🌙🍽️</p>
+        <p class="description">Hitung mundur dimulai… ⏳ Sampai ketemu di momen penuh kebersamaan dan kehangatan! 💕✨</p>
+
+        <div class="timer"> <!-- Container for the countdown timer -->
+
+            <div class="sub_timer"> <!-- Sub-timer for displaying days -->
+                <h1 id="day" class="digit">00</h1>
+                <p class="digit_name">Days</p>
+            </div>
+
+            <div class="sub_timer"> <!-- Sub-timer for displaying hours -->
+                <h1 id="hour" class="digit">00</h1>
+                <p class="digit_name">Hours</p>
+            </div>
+
+            <div class="sub_timer"> <!-- Sub-timer for displaying minutes -->
+                <h1 id="min" class="digit">00</h1>
+                <p class="digit_name">Minutes</p>
+            </div>
+
+            <div class="sub_timer"> <!-- Sub-timer for displaying seconds -->
+                <h1 id="sec" class="digit">00</h1>
+                <p class="digit_name">Seconds</p>
+            </div>
+
+        </div> 
+
+    </div> 
+    
+    <script src="count.js"></script> <!-- Link to the JavaScript file for timer functionality -->
+</body>
+</html>
